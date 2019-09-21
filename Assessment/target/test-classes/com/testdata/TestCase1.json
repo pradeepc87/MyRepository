@@ -1,0 +1,12 @@
+{
+	"Name": "Carbon credits",
+	"CanRelist": true,
+	"Invalid_key": "Carbon credits",
+	"Path": "Invalid value",
+	"Promotions": [
+		{
+		"Name": "Gallery",
+		"Description": "Good position in category \n2x larger image in desktop site search results"
+		}
+	]
+}

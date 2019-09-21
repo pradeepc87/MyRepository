@@ -1,0 +1,155 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Command Executor</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <style>
+ h1
+{
+	color:rgb(240, 255, 240) !Important; 
+	background-color:#00b359;
+	font-family:calibri;
+	font-weight:bold;
+	border: 3px solid #ddd;
+  
+}
+
+td { white-space:pre; 
+  } 
+
+.btn 
+{
+	background-color: #008CBA ; 
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+	align: left;
+}
+
+.homePageSelection
+{
+	background-color:#ffffe5;
+	
+	border:1px solid #ffcc99;
+	border-radius:5px;
+}
+
+#testResult {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+        border: 3px solid #ddd;
+  
+}
+
+#testResult td, #testResult th {
+  border: 3px solid #ddd;
+  padding: 8px;
+  white-space: nowrap;
+        
+}
+
+
+#testResult th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #5BADFA;
+  color: white;
+  
+}
+ </style>
+    
+    
+</head>
+<body>
+	<div><h1 style="text-align: center;" class="text-primary">Execution Report - 21-9-2019 12:41:08</h1></div> <!-- header -->
+		<br>
+			<div>
+				<table class="table table-bordered" border="3px solid #ddd">
+						<tbody>
+						  <tr class="info">
+							<th width="50%">Total Tests:</th>
+							<td>5</td>
+						  </tr>
+						  <tr class="success">
+							<th>Total Passed:</th>
+							<td>3</td>
+						  </tr>
+						  <tr class="danger">
+							<th>Total Failed:</th>
+							<td>2</td>
+						  </tr>
+						 <tr >
+							<th>Total Skipped:</th>
+							<td>0</td>
+						  </tr>
+						</tbody>
+					  </table>
+				</div>
+				</div>
+			<h2 style="text-align: center;" class="text-primary" background-color="#55A7CD">Tests  Report</h2><br/></div>
+		<table id="testResult">
+      <thead>
+        <tr>
+          <th>Field Name</th>
+          <th>Test Value</th>
+          <th>Start Time</th>
+          <th>Execution Time (mm:hh:ss:ms)</th>
+          <th>Reporter Message</th>
+          <th>Exception Message</th>
+        </tr>
+      </thead> 
+      	<tr border: 3px solid #ddd;  bgcolor=#FC5635><td colspan=6><b>Tests - Failed [2 test(s)]</b></center></td></tr>
+	<tr bgcolor=#FBCCC7>
+		<td>Path</td>
+		<td>Invalid value</td>
+		<td>2019/09/21 12:41:08</td>
+		<td>0:0:0:3</td>
+		<td></td>
+		<td>Value for Key Path is not matching in application response. expected [Invalid value] but found [/Business-farming-industry/Carbon-credits]</td>
+	</tr>
+	<tr bgcolor=#FBCCC7>
+		<td>Invalid_key</td>
+		<td>Carbon credits</td>
+		<td>2019/09/21 12:41:08</td>
+		<td>0:0:0:1</td>
+		<td></td>
+		<td>Key Invalid_key is not available in application response expected [true] but found [false]</td>
+	</tr>
+	<tr border: 3px solid #ddd;  bgcolor=#69C162><td colspan=6><b>Tests - Passed [3 test(s)]</b></center></td></tr>
+	<tr bgcolor=#CBFBC7>
+		<td>Promotions</td>
+		<td>[{"Description":"Good position in category \n2x larger image in desktop site search results","Name":"Gallery"}]</td>
+		<td>2019/09/21 12:41:08</td>
+		<td>0:0:0:6</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr bgcolor=#CBFBC7>
+		<td>Name</td>
+		<td>Carbon credits</td>
+		<td>2019/09/21 12:41:08</td>
+		<td>0:0:0:1</td>
+		<td></td>
+		<td></td>
+	</tr>
+	<tr bgcolor=#CBFBC7>
+		<td>CanRelist</td>
+		<td>true</td>
+		<td>2019/09/21 12:41:08</td>
+		<td>0:0:0:1</td>
+		<td></td>
+		<td></td>
+	</tr>
+
+    </table>
+		
+	
+					
+</body>
+</html>

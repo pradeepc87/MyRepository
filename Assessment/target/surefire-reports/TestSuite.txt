@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 4.63 sec <<< FAILURE!
+testApplicationResponse(com.main.TestApplication)  Time elapsed: 0.007 sec  <<< FAILURE!
+java.lang.AssertionError: Value for Key Path is not matching in application response. expected [Invalid value] but found [/Business-farming-industry/Carbon-credits]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at com.main.TestApplication.testApplicationResponse(TestApplication.java:126)
+
+testApplicationResponse(com.main.TestApplication)  Time elapsed: 0.002 sec  <<< FAILURE!
+java.lang.AssertionError: Key Invalid_key is not available in application response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.main.TestApplication.testApplicationResponse(TestApplication.java:85)
+

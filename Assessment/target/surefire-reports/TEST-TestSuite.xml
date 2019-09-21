@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="2" name="TestSuite" time="0.015" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.191-b12"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/pradeep.chockalingam/Documents/Mine/Eclipse_Workspace/Assessment"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/pradeep.chockalingam/Documents/Mine/Eclipse_Workspace/Assessment"/>
+    <property name="java.runtime.version" value="1.8.0_191-b12"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/g2/ythyrbvs5kj9r7046fkv1dl40000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/pradeep.chockalingam/Documents/Mine/Eclipse_Workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf1481185591958973563.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/pradeep.chockalingam/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.6"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/pradeep.chockalingam"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="pradeep.chockalingam"/>
+    <property name="java.class.path" value="/Applications/Eclipse.app/Contents/Eclipse/plugins/org.eclipse.m2e.maven.runtime_1.10.0.20181127-2120/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_191"/>
+    <property name="java.ext.dirs" value="/Users/pradeep.chockalingam/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/pradeep.chockalingam/Documents/Mine/Eclipse_Workspace/Assessment/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="com.main.TestApplication" name="testApplicationResponse" time="0.007">
+    <failure message="Value for Key Path is not matching in application response. expected [Invalid value] but found [/Business-farming-industry/Carbon-credits]" type="java.lang.AssertionError">java.lang.AssertionError: Value for Key Path is not matching in application response. expected [Invalid value] but found [/Business-farming-industry/Carbon-credits]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertEquals(Assert.java:123)
+	at com.main.TestApplication.testApplicationResponse(TestApplication.java:126)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@368102c8
+2019-09-21 12:41:04,507 [INFO|com.main.TestApplication|TestApplication] Application url : https://api.tmsandbox.co.nz/v1/Categories/6327/Details.json?catalogue=false
+2019-09-21 12:41:08,772 [INFO|com.main.TestApplication|TestApplication] Application response:{&quot;CategoryId&quot;:6327,&quot;Path&quot;:&quot;/Business-farming-industry/Carbon-credits&quot;,&quot;Promotions&quot;:[{&quot;MinimumPhotoCount&quot;:0,&quot;Description&quot;:&quot;Lowest position in category&quot;,&quot;Price&quot;:0,&quot;Id&quot;:1,&quot;Name&quot;:&quot;Basic&quot;},{&quot;MinimumPhotoCount&quot;:0,&quot;Description&quot;:&quot;Good position in category \n2x larger image in desktop site search results&quot;,&quot;OriginalPrice&quot;:2,&quot;Price&quot;:2,&quot;Id&quot;:2,&quot;Name&quot;:&quot;Gallery&quot;},{&quot;MinimumPhotoCount&quot;:0,&quot;Description&quot;:&quot;Better position in category \n4x larger image in desktop site search results&quot;,&quot;OriginalPrice&quot;:10,&quot;Price&quot;:10,&quot;Recommended&quot;:true,&quot;Id&quot;:3,&quot;Name&quot;:&quot;Feature&quot;},{&quot;MinimumPhotoCount&quot;:0,&quot;Description&quot;:&quot;Best position in category \nIncludes benefits of Feature \nHighlights listing in search results&quot;,&quot;OriginalPrice&quot;:15,&quot;Price&quot;:15,&quot;Id&quot;:4,&quot;Name&quot;:&quot;Feature Combo&quot;}],&quot;EmbeddedContentOptions&quot;:[],&quot;AllowedDurations&quot;:[2,3,4,5,6,7,10,14],&quot;IsFreeToRelist&quot;:true,&quot;CanListAuctions&quot;:true,&quot;Fees&quot;:{&quot;Reserve&quot;:0.25,&quot;Subtitle&quot;:0.55,&quot;ListingFeeTiers&quot;:[{&quot;FixedFee&quot;:29,&quot;MinimumTierPrice&quot;:0}],&quot;Listing&quot;:29,&quot;Bundle&quot;:15,&quot;Gallery&quot;:2,&quot;TenDays&quot;:0.25,&quot;EndDate&quot;:0.25,&quot;Feature&quot;:10,&quot;SecondCategory&quot;:0.99},&quot;Name&quot;:&quot;Carbon credits&quot;,&quot;CanListClassifieds&quot;:true,&quot;AreaOfBusiness&quot;:1,&quot;DefaultRelistDuration&quot;:7,&quot;MaximumPhotoCount&quot;:20,&quot;CanRelist&quot;:true,&quot;LegalNotice&quot;:&quot;Compliance Declaration\nI confirm that these carbon credits are certified and registered with a carbon credits registry. &quot;,&quot;DefaultDuration&quot;:14,&quot;MaximumTitleLength&quot;:80,&quot;FreePhotoCount&quot;:20}
+Path--&gt;Invalid value--&gt;String
+Promotions--&gt;[{&quot;Description&quot;:&quot;Good position in category \n2x larger image in desktop site search results&quot;,&quot;Name&quot;:&quot;Gallery&quot;}]--&gt;JSONArray
+CanRelist--&gt;true--&gt;Boolean
+Invalid_key--&gt;Carbon credits--&gt;String
+Name--&gt;Carbon credits--&gt;String
+2019-09-21 12:41:08,789 [INFO|com.main.TestApplication|TestApplication] Starting Test for Path--&gt;Invalid value
+</system-out>
+    <system-err>log4j:WARN No appenders could be found for logger (com.main.TestApplication).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+</system-err>
+  </testcase>
+  <testcase classname="com.main.TestApplication" name="testApplicationResponse" time="0.003"/>
+  <testcase classname="com.main.TestApplication" name="testApplicationResponse" time="0.002"/>
+  <testcase classname="com.main.TestApplication" name="testApplicationResponse" time="0.002">
+    <failure message="Key Invalid_key is not available in application response expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: Key Invalid_key is not available in application response expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.main.TestApplication.testApplicationResponse(TestApplication.java:85)
+</failure>
+    <system-out>2019-09-21 12:41:08,803 [INFO|com.main.TestApplication|TestApplication] Starting Test for Invalid_key--&gt;Carbon credits
+</system-out>
+  </testcase>
+  <testcase classname="com.main.TestApplication" name="testApplicationResponse" time="0.001"/>
+</testsuite>
